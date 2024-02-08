@@ -1,0 +1,3 @@
+how to run bash in linux?
+1. bash example.sh
+2. ./example.sh  => in this way first you should make file excuteable with this command (chmod +x example.sh)
