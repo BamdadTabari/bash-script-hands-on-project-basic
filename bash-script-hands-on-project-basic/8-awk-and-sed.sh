@@ -14,7 +14,7 @@ echo -e "hello world \n hello sample" > example.txt
 FILE="example.txt"
 
 echo "original content of example.txt"
-cat example.txt
+cat $FILE
 
 # use sed command to replace "sample" with "modified" in file
 sed 's/sample/modified' > modified_file.txt
